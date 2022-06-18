@@ -1,0 +1,15 @@
+ #theform{
+     display: table;
+     background-color: white;
+     border: 1px solid white;
+
+ }
+ .row{
+     display: table-row;
+ }
+.row input{
+    display: table-cell;
+    padding: 2px;
+    color:hsl(0, 100%, 74%) ;
+    width: 100%;
+}
