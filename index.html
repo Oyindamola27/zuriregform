@@ -1,42 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    <title>Document</title>
-  </head>
-  <body>
-    <div class="header">
-      <h1>Learn to code by watching others</h1>
-      <p>
-        See how experienced developers solve problems in real-time. Watching
-        scripted is great but understandung how developers think is invaluable
-      </p>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+  <div class="flexcontainer">
+
+    <div class="box1"> 
+      <h1>Learn to code by<span>watching others</span></h1>
+      <p class="para1"><span>See how experienced developers solve problems in real-time.</span>
+        <span> Watching scripted tutorials is great, but understanding how</span>
+          <span>developers think is invaluable.</span></p>
     </div>
 
-        <button type="button">Try it for free 7 days $20/mo. thereafter</button>
-      
-        <form id="theform" action="" method="">
-            <p>
-                <div class="row">
-            <input type="text" placeholder="First Name" name="" required=""><br><br>
-                </div>
-                <div class="row">
-            <input type="text" name="" placeholder="Last Name" required=""><br><br>
-                </div>
-                <div class="row">
-            <input type="email" name="" placeholder="Email Address" required=""><br><br>
-            </div>
-            <div class="row">
-            <input type="text" name="" placeholder="Password" required=""><br><br>
-            </div>
-            <button type="button">CLAIM YOUR FREE TRIAL</button>
-     </p>
+    <div class="box2">
+      <button id="trybtn" type="button"><b>Try it free 7 days</b> then $20/mo. thereafter</button>
+      <div class="theform">
+        <form action="" method="">
+          <div class="row">
+          <input type="text" name="" required placeholder="First Name" >
+          </div>
+          <div class="row">
+          <input class="row" type="text" name="" required placeholder="Last Name">
+          </div>
+          <div class="row">
+          <input class="row" type="email" name="" required placeholder="Email Address">
+          </div>
+          <div class="row">
+          <input class="row" type="text" name="" required placeholder="Password">
+          </div>
+          <div class="row">
+          <button id="claimbtn" type="submit">CLAIM YOUR YOUR FREE TRIAL</button>
+          </div>
+          <p id="pform">By clicking the button, you are agreeing to our <a class="terms" href="">Terms and Services</a></p>
         </form>
+      </div>
     </div>
 
-    </div>
-  </body>
+  </div>
+</body>
 </html>
